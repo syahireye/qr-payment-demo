@@ -1,0 +1,68 @@
+body{
+    margin:0;
+    background:#f4f4f4;
+    font-family:Arial;
+}
+
+.phone{
+    width:350px;
+    height:700px;
+    margin:auto;
+    margin-top:20px;
+    background:white;
+    border-radius:20px;
+    padding:20px;
+    box-shadow:0 0 20px rgba(0,0,0,.2);
+}
+
+.screen{
+    display:none;
+    text-align:center;
+}
+
+.active{
+    display:block;
+}
+
+.qr-box{
+    width:200px;
+    height:200px;
+    background:black;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:20px auto;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:10px;
+    background:#007AFF;
+    color:white;
+    cursor:pointer;
+}
+
+input{
+    width:200px;
+    padding:12px;
+    font-size:18px;
+    text-align:center;
+}
+
+.checkmark{
+    font-size:80px;
+    color:green;
+}
+
+.confetti{
+    font-size:40px;
+    animation:bounce 1s infinite;
+}
+
+@keyframes bounce{
+    50%{
+        transform:translateY(-10px);
+    }
+}
